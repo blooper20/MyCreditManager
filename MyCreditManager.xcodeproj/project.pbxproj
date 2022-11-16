@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D038AB972924D00C0085E946 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038AB962924D00C0085E946 /* main.swift */; };
+		D038AB9E292506D80085E946 /* AddStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038AB9D292506D80085E946 /* AddStudent.swift */; };
+		D038ABA0292506FF0085E946 /* DeleteStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038AB9F292506FF0085E946 /* DeleteStudent.swift */; };
+		D038ABA22925071C0085E946 /* AddGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038ABA12925071C0085E946 /* AddGrade.swift */; };
+		D038ABA42925073B0085E946 /* DeleteGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038ABA32925073B0085E946 /* DeleteGrade.swift */; };
+		D038ABA6292507570085E946 /* ReadGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038ABA5292507570085E946 /* ReadGrade.swift */; };
+		D038ABA82925076D0085E946 /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038ABA72925076D0085E946 /* Scoring.swift */; };
+		D038ABAE292508610085E946 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038ABAD292508610085E946 /* Notice.swift */; };
+		D038ABB029250BF40085E946 /* MyCreditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D038ABAF29250BF40085E946 /* MyCreditManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		D038AB932924D00C0085E946 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		D038AB962924D00C0085E946 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D038AB9D292506D80085E946 /* AddStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudent.swift; sourceTree = "<group>"; };
+		D038AB9F292506FF0085E946 /* DeleteStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteStudent.swift; sourceTree = "<group>"; };
+		D038ABA12925071C0085E946 /* AddGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrade.swift; sourceTree = "<group>"; };
+		D038ABA32925073B0085E946 /* DeleteGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteGrade.swift; sourceTree = "<group>"; };
+		D038ABA5292507570085E946 /* ReadGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadGrade.swift; sourceTree = "<group>"; };
+		D038ABA72925076D0085E946 /* Scoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoring.swift; sourceTree = "<group>"; };
+		D038ABAD292508610085E946 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		D038ABAF29250BF40085E946 /* MyCreditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCreditManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,48 @@
 			isa = PBXGroup;
 			children = (
 				D038AB962924D00C0085E946 /* main.swift */,
+				D038ABA92925077D0085E946 /* Add */,
+				D038ABAA2925078A0085E946 /* Delete */,
+				D038ABAB292507A60085E946 /* Read */,
+				D038ABAC292507D90085E946 /* Common */,
 			);
 			path = MyCreditManager;
+			sourceTree = "<group>";
+		};
+		D038ABA92925077D0085E946 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				D038AB9D292506D80085E946 /* AddStudent.swift */,
+				D038ABA12925071C0085E946 /* AddGrade.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		D038ABAA2925078A0085E946 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				D038AB9F292506FF0085E946 /* DeleteStudent.swift */,
+				D038ABA32925073B0085E946 /* DeleteGrade.swift */,
+			);
+			path = Delete;
+			sourceTree = "<group>";
+		};
+		D038ABAB292507A60085E946 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				D038ABA5292507570085E946 /* ReadGrade.swift */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		D038ABAC292507D90085E946 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D038ABA72925076D0085E946 /* Scoring.swift */,
+				D038ABAD292508610085E946 /* Notice.swift */,
+				D038ABAF29250BF40085E946 /* MyCreditManager.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D038ABA42925073B0085E946 /* DeleteGrade.swift in Sources */,
+				D038ABAE292508610085E946 /* Notice.swift in Sources */,
+				D038ABA0292506FF0085E946 /* DeleteStudent.swift in Sources */,
+				D038ABA22925071C0085E946 /* AddGrade.swift in Sources */,
+				D038ABA82925076D0085E946 /* Scoring.swift in Sources */,
 				D038AB972924D00C0085E946 /* main.swift in Sources */,
+				D038ABB029250BF40085E946 /* MyCreditManager.swift in Sources */,
+				D038AB9E292506D80085E946 /* AddStudent.swift in Sources */,
+				D038ABA6292507570085E946 /* ReadGrade.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
